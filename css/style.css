@@ -1,0 +1,93 @@
+/* all common css part start */
+*{ 
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,span{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    vertical-align: middel;
+}
+/* all common css part end */
+
+/* navbar part css start */
+/* navbar part css end */
+
+/* Banner CSS Start  */
+#banner{
+   
+    background: url(../imge/alhera\ acamemy\ 3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner_overly{
+    padding: 380px 0px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.text_overly{
+    padding: 0px 0px;
+    background: rgba(2, 14, 247, 0.3);
+    
+}
+
+.banner_text h1{
+    font-size: 45px;
+    font-weight:800;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    /* background-color: rgb(8, 27, 220); */
+}
+
+/* .banner_text h1 font{
+    color: yellow green bisque;
+} */
+.banner_text u{
+    color: rgb(243, 247, 3);
+}
+.banner_text h4{
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 15px;
+    padding-bottom:10px;
+}
+.banner_text p {
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 24px;
+	color: rgb(243, 247, 3);
+	padding: 0px 40px;
+}
+.banner_text a{
+    padding: 21px 40px 17px 40px;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    background: #998675;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+/* Banner CSS End  */
